@@ -28,7 +28,7 @@ Este proyecto analiza el mercado del **Gas Licuado de Petróleo (GLP) de uso veh
 * **Determinar** si existe una correlación directa entre el aumento de la brecha de precios (ahorro en colones por litro) y el incremento en el volumen de ventas de AutoGLP.
 * **Estructurar** un repositorio de datos limpio y unificado que sirva como base para futuros modelos de análisis predictivo de demanda energética.
 
-### Pregunta de Investigación (Fase 1: Hacer la Pregunta)
+### Pregunta de Investigación (Fase 1)
 > **¿En qué medida la brecha de precios (ahorro económico por litro) frente a las gasolinas tradicionales influye en el ritmo de adopción y volumen de consumo de Gas LP vehicular en Costa Rica durante los últimos años?**
 
 ### Beneficios del Análisis
