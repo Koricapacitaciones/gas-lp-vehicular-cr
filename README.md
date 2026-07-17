@@ -62,7 +62,7 @@ Muestra la evolución del precio por litro en Costa Rica (Súper, Regular y Gas 
 
 ![Evolución de Precios Históricos ARESEP](https://via.placeholder.com/800x400.png?text=Grafico+1:+Evolucion+de+Precios+Historicos+ARESEP)
 
-### 📊 Gráfico 2: Correlación entre Brecha Económica y Volumen de Ventas en Litros
+###  Gráfico 2: Correlación entre Brecha Económica y Volumen de Ventas en Litros
 Visualización cruzada que contrasta el aumento del ahorro por litro frente al pico en las ventas anuales reportadas por los planteles de RECOPE.
 
 ![Correlacion Ahorro vs Ventas RECOPE](https://via.placeholder.com/800x400.png?text=Grafico+2:+Correlacion+Ahorro+vs+Ventas+RECOPE)
