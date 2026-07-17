@@ -49,17 +49,6 @@ El proyecto se organiza bajo las mejores prácticas de la industria para el aná
 │   └── 01_limpieza_y_extraccion.py
 ├── visualizaciones/        # Gráficos generados, reportes en PDF o enlaces a Dashboards
 └── README.md               # Presentación del proyecto (Este archivo)
----
-
-## 🧠 Reflexión del Proceso Analítico
-
-### 1. ¿Por qué es importante identificar la pregunta antes de comenzar el análisis?
-La pregunta actúa como una brújula analítica. En el contexto de Big Data la cantidad de información disponible es masiva y abrumadora. Sin una pregunta clara, es muy fácil perderse en el ruido de los datos, procesar variables innecesarias y malgastar recursos. La pregunta delimita con precisión qué datos recolectar, cómo limpiarlos y qué respuestas visuales presentar.
-
-### 2. Tipo de Análisis Aplicado
-Inicialmente se aplica un **Análisis Descriptivo** para modelar y entender el comportamiento histórico de los datos reales. Conforme avance el proyecto, se evaluará la implementación de un **Análisis Predictivo** mediante modelos de regresión para pronosticar la demanda de AutoGLP basada en los escenarios de fluctuación del precio internacional del petróleo.
-
----
-**Autor:** Karina Garro Granados  
-*Estudiante de Big Data y Analítica de Datos*  
-📍 San José, Costa Rica
+│   └── 01_limpieza_y_extraccion.py
+├── visualizaciones/        # Gráficos generados, reportes en PDF o enlaces a Dashboards
+└── README.md               # Presentación del proyecto (Este archivo)
