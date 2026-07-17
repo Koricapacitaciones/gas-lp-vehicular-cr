@@ -15,7 +15,7 @@ Costa Rica se encuentra bajo un Plan Nacional de Descarbonización; comprender l
 
 ---
 
-## ❓ Pregunta de Investigación (Fase 1: Hacer la Pregunta)
+## ❓ Pregunta de Investigación 
 > **¿En qué medida la brecha de precios (ahorro económico por litro) frente a las gasolinas tradicionales influye en el ritmo de adopción y volumen de consumo de Gas LP vehicular en Costa Rica durante los últimos años?**
 
 ### 💡 Beneficios del Análisis:
