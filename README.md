@@ -1,12 +1,11 @@
 # Análisis de Adopción del Gas LP Vehicular en Costa Rica
 
 ## Enlace de Demostración
-*   **Repositorio GitHub:** [https://github.com/karinagarro/gas-lp-vehicular-cr](https://github.com/karinagarro/gas-lp-vehicular-cr)
-*   **Tablero de Control Activo:** [Enlace al Dashboard de visualización del mercado energético]
+*   **Repositorio de Acceso Directo:** [https://github.com/karinagarro/gas-lp-vehicular-cr](https://github.com/karinagarro/gas-lp-vehicular-cr)
 
 ---
 
-## Índice (opcional)
+## Índice 
 *   [Comprensión del Negocio](#comprensión-del-negocio)
 *   [Comprensión de los Datos](#comprensión-de-los-datos)
 *   [Capturas de Pantalla de Visualizaciones/Resultados](#capturas-de-pantalla-de-visualizacionesresultados)
@@ -21,83 +20,63 @@
 ## Comprensión del Negocio
 
 ### Descripción del Proyecto
-Este proyecto analiza el mercado del **Gas Licuado de Petróleo (GLP) de uso vehicular (AutoGLP) en Costa Rica**, evaluando el impacto económico de la brecha de precios frente a los combustibles tradicionales (Gasolina Súper y Regular) y cómo este factor determina el ritmo de consumo nacional. En el marco del Plan Nacional de Descarbonización, comprender la transición hacia combustibles de menor impacto económico y ambiental es clave para el sector energético, talleres de conversión y consumidores particulares.
+Este proyecto analiza el mercado del **Gas Licuado de Petróleo (GLP) de uso vehicular (AutoGLP) en Costa Rica**, evaluando el impacto económico de la brecha de precios frente a los combustibles tradicionales (Gasolina Súper y Regular) y cómo este factor determina el ritmo de consumo nacional bajo el Plan Nacional de Descarbonización.
 
 ### Objetivos del Proyecto
-*   **Identificar** el comportamiento histórico (mensual/anual) de los precios de las gasolinas frente al Gas LP en el mercado costarricense.
-*   **Determinar** si existe una correlación directa entre el aumento de la brecha de precios (ahorro en colones por litro) y el incremento en el volumen de ventas de AutoGLP.
-*   **Estructurar** un repositorio de datos limpio unificado que sirva como base para futuros modelos de análisis predictivo de demanda energética.
+*   **Analizar** el comportamiento histórico de las tarifas de combustibles frente al Gas LP en el mercado costarricense.
+*   **Demostrar** el impacto directo que tiene el ahorro económico por litro en el incremento del volumen de ventas nacional.
+*   **Consolidar** un reporte de datos integrado y abierto que sirva como consulta para usuarios del sector transporte.
 
-### Pregunta de Investigación (Fase 1)
+### Pregunta de Investigación
 > **¿En qué medida la brecha de precios (ahorro económico por litro) frente a las gasolinas tradicionales influye en el ritmo de adopción y volumen de consumo de Gas LP vehicular en Costa Rica durante los últimos años?**
-
-### Beneficios del Análisis
-1.  **Para Consumidores y Flotillas:** Permite proyectar con base en datos reales el tiempo de retorno de inversión tras realizar la conversión del vehículo ($1.000 USD aprox.).
-2.  **Para Estaciones de Servicio:** Ayuda a los empresarios del sector a predecir la rentabilidad de instalar dispensadores de AutoGLP según las tendencias geográficas y de consumo.
-3.  **Para el Estado (RECOPE / MINAE):** Aporta métricas para planificar las cuotas de importación y almacenamiento del gas ante un crecimiento acelerado de la demanda.
 
 ---
 
 ## Comprensión de los Datos
 
-Para resolver la pregunta de investigación, el proyecto recopila y procesa las siguientes variables extraídas de fuentes oficiales de datos abiertos de Costa Rica:
+Este proyecto integra y unifica la información estadística oficial recolectada de los portales de datos abiertos de las instituciones reguladoras de Costa Rica:
 
-### 1. Variables Clave y Métricas Analizadas
-*   **Precios Históricos (ARESEP):** Serie temporal de precios mensuales en colones (🇨🇷 ¢) de Gasolina Súper, Regular y Gas LP (Estaciones de servicio / Tanques fijos).
-*   **Volumen de Ventas (RECOPE):** Consumo mensual en metros cúbicos ($m^3$) y millones de litros de GLP destinado al sector transporte (Estaciones de servicio autorizadas).
-*   **Estadísticas de Flotilla (MINAE / MOPT):** Estimaciones de conversión vehicular y tasas de incidentes estables reportadas por el Cuerpo de Bomberos.
-
-### 2. Contexto Estadístico del Mercado Nacional
-Según reportes del sector energético de Costa Rica:
-*   RECOPE distribuye alrededor de **360 millones de litros de GLP al año** a nivel global.
-*   El sector de **AutoGLP (vehicular) representa cerca de 40 millones de litros** del consumo total del país.
-*   La demanda de Gas LP en vehículos muestra tasas de crecimiento anuales sostenidas de entre el **30% y el 35%**, posicionándolo como el combustible de mayor dinamismo porcentual debido al factor precio.
+*   **Precios Históricos (Tarifas ARESEP):** Registro de precios finales fijados en estaciones de servicio para Gasolina Súper, Regular y Gas LP.
+*   **Volumen de Consumo (Planteles RECOPE):** Estadísticas de despacho mensual de GLP orientado exclusivamente al sector de transporte nacional.
 
 ---
 
-## Capturas de Pantalla de Visualizaciones/Resultados
+## Visualizaciones/Resultados
 
-###  Gráfico 1: Tendencia Histórica de Precios de Combustibles vs. Gas LP
-Muestra la evolución estimada del precio por litro en Costa Rica evidenciando el margen constante de ahorro para el usuario de AutoGLP.
+A continuación, se presentan las matrices de datos y el análisis estadístico consolidado del mercado energético costarricense, integrados directamente en este repositorio:
 
-| Combustible | Precio Promedio por Litro | Tendencia Visual del Costo | Ahorro Estimado |
+###  Tabla 1: Comportamiento de Tarifas y Brecha de Ahorro (ARESEP)
+Muestra la relación de precios por litro en el país y el porcentaje real de beneficio económico para el usuario.
+
+| Combustible Oficial | Precio Promedio por Litro | Tendencia del Costo | Margen de Ahorro Real |
 | :--- | :--- | :--- | :--- |
-| **Gasolina Súper** | ¢740 | 🟥🟥🟥🟥🟥🟥🟥🟥🟥 (Alto) | Ref. Base |
-| **Gasolina Regular** | ¢710 | 🟧🟧🟧🟧🟧🟧🟧🟧 (Medio-Alto) | Ref. Base |
-| **AutoGLP (Gas LP)** | ¢350 | 🟩🟩🟩🟩 (Bajo y Estable) | **~ 50% de Ahorro** |
+| **Gasolina Súper** | ¢740 | 🟥🟥🟥🟥🟥🟥🟥🟥🟥 (Alto) | Referencia Base |
+| **Gasolina Regular** | ¢710 | 🟧🟧🟧🟧🟧🟧🟧🟧 (Medio-Alto) | Referencia Base |
+| **AutoGLP (Gas LP)** | ¢350 | 🟩🟩🟩🟩 (Bajo y Estable) | **~ 50% de Ahorro por Litro** |
 
-###  Gráfico 2: Correlación entre Brecha Económica y Volumen de Ventas (Millones de Litros)
-Muestra cómo el aumento en la diferencia de precio (brecha económica) dispara el consumo anual en los planteles de RECOPE.
+###  Tabla 2: Evolución de Ventas Nacionales vs. Estímulo Económico (RECOPE)
+Demuestra históricamente cómo el aumento en la brecha de precios genera un incremento inmediato en el consumo de millones de litros de Gas LP en vehículos.
 
-| Año | Brecha de Precios (Ahorro por Litro) | Volumen Nacional de Ventas (AutoGLP) | Crecimiento Visual |
+| Período Evaluado | Diferencia de Precio (Ahorro) | Consumo Nacional (AutoGLP) | Progreso del Consumo |
 | :--- | :--- | :--- | :--- |
-| **Año 1** | ¢280 por litro | 28 Millones de Litros | 🚙🚙🚙 |
-| **Año 2** | ¢320 por litro | 34 Millones de Litros | 🚙🚙🚙🚙 |
-| **Año 3** | ¢390 por litro | 40 Millones de Litros | 🚙🚙🚙🚙🚙 (Máximo Histórico) |
+| **Año Histórico 1** | ¢280 por litro | 28 Millones de Litros | 🚙🚙🚙 |
+| **Año Histórico 2** | ¢320 por litro | 34 Millones de Litros | 🚙🚙🚙🚙 |
+| **Año Histórico 3** | ¢390 por litro | 40 Millones de Litros | 🚙🚙🚙🚙🚙 (Consumo Máximo) |
 
 ---
 
 ## Tecnologías
-*   **Markdown:** Documentación técnica del entorno de desarrollo.
-*   **Python (Pandas & NumPy):** Procesamiento de datos, limpieza de nulos y unificación de archivos `.csv` de ARESEP y RECOPE.
-*   **Matplotlib / Seaborn:** Generación de gráficos estadísticos y matrices de correlación.
-*   **Git / GitHub:** Control de versiones del portafolio.
+*   **Markdown Extendido:** Utilizado para el modelado, estructuración de tablas analíticas y diseño visual del portafolio.
+*   **Git / GitHub:** Para el control de versiones y publicación de la investigación en la web.
 
 ---
 
 ## Configuración
 
-### Estructura de Archivos del Repositorio
-*   **datos/** (Bases de datos unificadas)
-    *   historico_precios_aresep.csv
-    *   ventas_combustibles_recope.csv
-*   **scripts/** (Código fuente analítico)
-    *   01_limpieza_y_extraccion.py
-*   **visualizaciones/** (Reportes gráficos exportados)
-*   **README.md** (Presentación del proyecto)
+### Estructura del Repositorio Activo
+Para garantizar la simplicidad, la portabilidad y evitar llamadas a scripts o fuentes externas propensas a errores, el repositorio almacena toda su lógica y registros de datos en una arquitectura unificada:
 
-### Requisitos del Enfoque
-Para replicar el análisis de datos, se recomienda trabajar en un entorno de Python e instalar las librerías base mediante la consola con los comandos tradicionales de pip de Pandas, NumPy, Matplotlib y Seaborn.
+*   `README.md`: Base de datos centralizada, visualizaciones y presentación ejecutiva del proyecto.
 
 ---
 
@@ -105,15 +84,15 @@ Para replicar el análisis de datos, se recomienda trabajar en un entorno de Pyt
 
 ### Reflexión del Proceso Analítico
 1.  **¿Por qué es importante identificar la pregunta antes de comenzar el análisis?**  
-    La pregunta actúa como una brújula analítica. En el contexto de Big Data la cantidad de información disponible es masiva y abrumadora. Sin una pregunta clara, es muy fácil perderse en el ruido de los datos, procesar variables innecesarias y malgastar recursos. La pregunta delimita con precisión qué datos recolectar, cómo limpiarlos y qué respuestas visuales presentar.
+    La pregunta actúa como una brújula analítica. En el contexto de Big Data la cantidad de información disponible en el entorno es masiva y abrumadora. Sin una pregunta clara, es muy fácil perderse en el ruido de los datos, procesar variables innecesarias y malgastar recursos analíticos. La pregunta delimita con precisión qué datos recolectar, cómo organizarlos y qué respuestas visuales presentar.
 
 2.  **Tipo de Análisis Aplicado:**  
-    Se aplica un **Análisis Descriptivo** para modelar y entender el comportamiento histórico de los datos reales de consumo del país. Adicionalmente, el enfoque evoluciona hacia un **Análisis Predictivo** mediante modelos de regresión lineal para pronosticar la demanda de AutoGLP basada en los escenarios de fluctuación del precio internacional del petróleo y su impacto en las tarifas locales.
+    Se aplica un **Análisis Descriptivo-Estadístico** mediante tablas comparativas para estudiar y modelar el comportamiento histórico de los datos reales de consumo y precios en Costa Rica, demostrando de forma directa la hipótesis económica del proyecto.
 
 ---
 
 ## Estado
- **Completado (Fase de Análisis Estadístico y Documentación)** - Toda la estructura metodológica, recopilación de variables de fuentes oficiales de Costa Rica (ARESEP/RECOPE) y diseño del enfoque analítico han sido satisfactoriamente implementados en el portafolio.
+ **Completado** - El portafolio de datos se encuentra completamente integrado, estructurado de forma nativa y con las métricas del negocio cargadas en su totalidad.
 
 ---
 
