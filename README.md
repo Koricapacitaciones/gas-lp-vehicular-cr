@@ -1,4 +1,4 @@
-# 🇨🇷 Análisis de Adopción del Gas LP Vehicular (AutoGLP) en Costa Rica
+# Análisis de Adopción del Gas LP Vehicular en Costa Rica
 
 ## Enlace de Demostración
 *   **Repositorio GitHub:** [https://github.com/karinagarro/gas-lp-vehicular-cr](https://github.com/karinagarro/gas-lp-vehicular-cr)
