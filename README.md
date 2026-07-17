@@ -1,4 +1,4 @@
-# 🇨🇷 Análisis de Adopción del Gas LP Vehicular (AutoGLP) en Costa Rica
+# Análisis de Adopción del Gas LP Vehicular en Costa Rica
 
 ## Enlace de Demostración
 *Actualmente el proyecto se encuentra en su fase inicial de planificación y diseño metodológico, por lo que no cuenta con un enlace de despliegue activo.*
