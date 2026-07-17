@@ -9,13 +9,13 @@ Costa Rica se encuentra bajo un Plan Nacional de Descarbonización; comprender l
 
 ## 🎯 Objetivos del Proyecto
 
-*   **Identificar** el comportamiento histórico (mensual/anual) de los precios de las gasolinas frente al Gas LP en el mercado costarricense.
+*   **Identificar** el comportamiento histórico (mensual/anual) de los precios de las gasolinas frente al Gas LP en el mercado costarrcense.
 *   **Determinar** si existe una correlación directa entre el aumento de la brecha de precios (ahorro en colones por litro) y el incremento en el volumen de ventas de AutoGLP.
 *   **Estructurar** un repositorio de datos limpio y unificado que sirva como base para futuros modelos de análisis predictivo de demanda energética.
 
 ---
 
-## ❓ Pregunta de Investigación 
+## ❓ Pregunta de Investigación (Fase 1: Hacer la Pregunta)
 > **¿En qué medida la brecha de precios (ahorro económico por litro) frente a las gasolinas tradicionales influye en el ritmo de adopción y volumen de consumo de Gas LP vehicular en Costa Rica durante los últimos años?**
 
 ### 💡 Beneficios del Análisis:
@@ -27,7 +27,7 @@ Costa Rica se encuentra bajo un Plan Nacional de Descarbonización; comprender l
 
 ## 🛠️ Datos Necesarios y Fuentes Identificadas
 
-Para resolver la pregunta de investigación, el proyecto recopila y procesa las siguientes variables extraídas de fuentes oficiales de datos abiertos de Costa Rica:
+Para resolver la pregunta de investigación, el proyecto recopilará y procesará las siguientes variables extraídas de fuentes oficiales de datos abiertos de Costa Rica:
 
 *   **Precios Históricos:** Precios mensuales en colones (🇨🇷 ¢) de Gasolina Súper, Regular y Gas LP (Fuente: **ARESEP**).
 *   **Volumen de Ventas:** Consumo mensual en metros cúbicos ($m^3$) de GLP destinado al sector transporte (Fuente: **RECOPE**).
@@ -37,11 +37,9 @@ Para resolver la pregunta de investigación, el proyecto recopila y procesa las 
 
 ## 📂 Estructura del Repositorio
 
-El proyecto se organiza bajo las siguientes carpetas de trabajo:
+Actualmente, el repositorio se encuentra en su fase inicial de planificación y cuenta con el siguiente archivo base:
 
-*   **datos/**: Carpeta destinada para los archivos históricos descargados (`historico_precios_aresep.csv` y `ventas_combustibles_recope.csv`).
-*   **scripts/**: Espacio para los códigos de Python, SQL o Jupyter Notebooks de limpieza.
-*   **visualizaciones/**: Gráficos finales y tableros interactivos.
+*   `README.md`: Documento principal de presentación que describe el planteamiento del problema, objetivos, justificación y la metodología de investigación del proyecto.
 
 ---
 
