@@ -29,26 +29,32 @@ Costa Rica se encuentra bajo un Plan Nacional de Descarbonización; comprender l
 
 Para resolver la pregunta de investigación, el proyecto recopila y procesa las siguientes variables extraídas de fuentes oficiales de datos abiertos de Costa Rica:
 
-| Elemento de Datos | Variable Clave | Fuente Oficial |
-| :--- | :--- | :--- |
-| **Precios Históricos** | Precios mensuales en colones (🇨🇷 ¢) de Gasolina Súper, Regular y Gas LP. | **ARESEP** (Autoridad Reguladora de los Servicios Públicos) |
-| **Volumen de Ventas** | Consumo mensual en metros cúbicos ($m^3$) de GLP destinado al sector transporte. | **RECOPE** (Refinadora Costarricense de Petróleo) |
-| **Parque Automotor** | Estimaciones de vehículos convertidos a gas y tasas de inspección vehicular. | **MINAE** (Dirección Sectorial de Energía) / Estadísticas del MOPT |
+*   **Precios Históricos:** Precios mensuales en colones (🇨🇷 ¢) de Gasolina Súper, Regular y Gas LP (Fuente: **ARESEP**).
+*   **Volumen de Ventas:** Consumo mensual en metros cúbicos ($m^3$) de GLP destinado al sector transporte (Fuente: **RECOPE**).
+*   **Parque Automotor:** Estimaciones de vehículos convertidos a gas y tasas de inspección vehicular (Fuente: **MINAE / MOPT**).
 
 ---
 
 ## 📂 Estructura del Repositorio
 
-El proyecto se organiza bajo las mejores prácticas de la industria para el análisis de datos:
+El proyecto se organiza bajo las siguientes carpetas de trabajo:
 
-```text
-├── datos/                  # Datos crudos (Raw Data) y datos procesados (Clean Data)
-│   ├── historico_precios_aresep.csv
-│   └── ventas_combustibles_recope.csv
-├── scripts/                # Notebooks de Jupyter o Scripts de Python/SQL para ETL
-│   └── 01_limpieza_y_extraccion.py
-├── visualizaciones/        # Gráficos generados, reportes en PDF o enlaces a Dashboards
-└── README.md               # Presentación del proyecto (Este archivo)
-│   └── 01_limpieza_y_extraccion.py
-├── visualizaciones/        # Gráficos generados, reportes en PDF o enlaces a Dashboards
-└── README.md               # Presentación del proyecto (Este archivo)
+*   **datos/**: Carpeta destinada para los archivos históricos descargados (`historico_precios_aresep.csv` y `ventas_combustibles_recope.csv`).
+*   **scripts/**: Espacio para los códigos de Python, SQL o Jupyter Notebooks de limpieza.
+*   **visualizaciones/**: Gráficos finales y tableros interactivos.
+
+---
+
+## 🧠 Reflexión del Proceso Analítico
+
+### 1. ¿Por qué es importante identificar la pregunta antes de comenzar el análisis?
+La pregunta actúa como una brújula analítica. En el contexto de Big Data la cantidad de información disponible es masiva y abrumadora. Sin una pregunta clara, es muy fácil perderse en el ruido de los datos, procesar variables innecesarias y malgastar recursos. La pregunta delimita con precisión qué datos recolectar, cómo limpiarlos y qué respuestas visuales presentar.
+
+### 2. Tipo de Análisis Aplicado
+Inicialmente se aplica un **Análisis Descriptivo** para modelar y entender el comportamiento histórico de los datos reales. Conforme avance el proyecto, se evaluará la implementación de un **Análisis Predictivo** mediante modelos de regresión para pronosticar la demanda de AutoGLP basada en los escenarios de fluctuación del precio internacional del petróleo.
+
+---
+
+**Autor:** Karina Garro Granados  
+*Estudiante de Big Data y Analítica de Datos*  
+📍 San José, Costa Rica
